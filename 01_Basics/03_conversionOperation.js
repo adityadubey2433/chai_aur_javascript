@@ -34,4 +34,43 @@ let booleanIsloggedIn = Boolean(isloggedIn)
 
 let someNumber = 21
 let stringNumber = String(someNumber)
-console.log(typeof stringNumber);
+// console.log(typeof stringNumber);
+// console.log(stringNumber);
+ 
+
+
+// ***********************************************Operation****************************************************
+
+// goto tc39.es and => 7. Abstract operation
+
+let value = 21
+let negvalue = -value
+// console.log(negvalue);
+
+// console.log(2 + 2);
+// console.log(2 - 2);
+// console.log(2 * 2);
+// console.log(2 ** 2);
+// console.log(2 / 2);
+// console.log(2 % 2);
+
+let str1 = "hello"
+let str2 = "  Aditya"
+// console.log(str1 + str2);
+// let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2); // => 12
+// console.log(1 + "2"); // => 12
+// console.log("1" + "2"); // => 12
+// console.log("1" + 2 + 2); // => 122 // agar string first me aata hai to  baad wale sare number ko string me convert kar dega  
+// console.log(1 + 2 + "2"); // => 32 // agar number first me ata hai to pahle sare number ko add kar dega fir last wala number ko string me convert kar dega 
+
+
+// ** sabse kharab code likhne ka tarika hai **
+console.log(true);   // true hi aayega 
+
+console.log(+true);  // 1 aayega   
+// console.log(true+);  // error aayega 
+
+console.log(+"");  // 0 aayega 
