@@ -68,9 +68,19 @@ let str2 = "  Aditya"
 
 
 // ** sabse kharab code likhne ka tarika hai **
-console.log(true);   // true hi aayega 
+// console.log(true);   // true hi aayega 
 
-console.log(+true);  // 1 aayega   
+// console.log(+true);  // 1 aayega   
 // console.log(true+);  // error aayega 
 
-console.log(+"");  // 0 aayega 
+// console.log(+"");  // 0 aayega 
+
+
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+++gameCounter
+console.log(gameCounter);
+
