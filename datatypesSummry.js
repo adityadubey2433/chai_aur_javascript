@@ -28,3 +28,5 @@ console.log(id === anotherId); // false
 const bigNumber = 21259354123215345612n  // last me 'n' lagate hai big int ke liye 
 console.log(typeof bigNumber);
 
+const heros = ["shaktiman", "nagraj", "doga"]
+
