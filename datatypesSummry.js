@@ -23,10 +23,20 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId); // false
+//console.log(id === anotherId); // false
 
 const bigNumber = 21259354123215345612n  // last me 'n' lagate hai big int ke liye 
+//console.log(typeof bigNumber);
+
+const heros = ["shaktiman", "nagraj", "doga"];
+//Objects-
+let myObj = {
+    name: "Aditya",
+    age: 21,
+}
+
+const myFunction = function(){
+    console.log("Hello Aditya");
+}
+
 console.log(typeof bigNumber);
-
-const heros = ["shaktiman", "nagraj", "doga"]
-
