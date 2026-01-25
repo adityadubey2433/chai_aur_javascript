@@ -16,7 +16,7 @@ console.log(otherNumber.toPrecision(3));
 
 const hundreds = 1000000
 console.log(hundreds.toLocaleString('en-IN'));
-console.log(hundreds.toLocaleString('en-US'));
-console.log(hundreds.toLocaleString('en-CH'));
-console.log(hundreds.toLocaleString('en-GK'));
-console.log(hundreds.toLocaleString('en-NP'));
+// console.log(hundreds.toLocaleString('en-US'));
+// console.log(hundreds.toLocaleString('en-CH'));
+// console.log(hundreds.toLocaleString('en-GK'));
+// console.log(hundreds.toLocaleString('en-NP'));
