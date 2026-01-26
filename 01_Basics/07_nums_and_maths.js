@@ -31,8 +31,19 @@ console.log(Math); //Object [Math] {}
 // console.log(Math.abs(-5)); // negetive value ko positive me convort krta hai 
 // console.log(Math.abs(5)); // positive  value ko positive me convort krta hai
 
-console.log(Math.round(5.5));
-console.log(Math.ceil(5.2));
-console.log(Math.floor(5.6));
-console.log(Math.round(5.3));
+// console.log(Math.round(5.5));
+// console.log(Math.ceil(5.2));
+// console.log(Math.floor(5.6));
+// console.log(Math.sqrt(25));
+// console.log(Math.pow(5, 4));
+// console.log(Math.min(2, 3, 4, 5, 6, 52));
+// console.log(Math.max(2, 3, 4, 5, 6, 52));
 
+console.log(Math.random());
+console.log(Math.floor(Math.random()*10+1));
+
+
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random() * (max - min + 1))+ min);
